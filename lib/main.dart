@@ -1,3 +1,4 @@
+import 'package:deep_dive_bottom_navigation/bottom_navigations/bottom_navigation_with_backstack.dart';
 import 'package:deep_dive_bottom_navigation/bottom_navigations/simple_bottom_navigation.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SimpleBottomNavigation(),
+      home: BottomNavWithBackStack(),
     );
   }
 }
